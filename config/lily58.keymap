@@ -10,10 +10,10 @@
 
 / {
     macros {
-        providence: providence {
+        Providence: Providence {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp J &kp O &kp S &kp E &kp P &kp H &kp DOT &kp D &kp A &kp N &kp G &kp AT &kp P &kp R &kp O &kp V &kp I &kp D &kp E &kp N &kp C &kp E &kp DOT &kp O &kp R &kp G &kp TAB &kp LS(T) &kp H &kp E &kp LS(F) &kp U &kp N &kp LS(P) &kp O &kp L &kp I &kp C &kp E &kp N2 &kp N0 &kp N1 &kp N7 &kp EXCL &kp ENTER>;
+            bindings = <&none &kp LS(T) &kp H &kp E &kp LS(F) &kp U &kp N &kp LS(P) &kp O &kp L &kp I &kp C &kp E &kp N2 &kp N0 &kp N1 &kp N7 &kp EXCL>;
             label = "PROVIDENCE";
         };
     };
@@ -54,7 +54,7 @@
 &bt BT_CLR  &bt BT_SEL 0    &bt BT_SEL 1    &bt BT_SEL 2     &bt BT_SEL 3  &bt BT_SEL 4                         &trans  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_DIVIDE    &trans
 &kp F1      &kp F2          &kp UP_ARROW    &kp F4           &kp F5        &kp F6                               &trans  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_MULTIPLY  &trans
 &kp GRAVE   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp DOLLAR    &kp PRCNT                            &trans  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_MINUS     &trans
-&trans      &trans          &trans          &trans           &trans        &trans        &providence    &trans  &trans  &kp KP_NUMBER_0  &kp PERIOD       &trans           &kp KP_PLUS      &trans
+&trans      &trans          &trans          &trans           &trans        &trans        &Providence    &trans  &trans  &kp KP_NUMBER_0  &kp PERIOD       &trans           &kp KP_PLUS      &trans
                                             &trans           &trans        &trans        &trans         &trans  &trans  &trans           &trans
             >;
 
